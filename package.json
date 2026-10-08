@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-icypeas",
+  "version": "0.1.0",
+  "description": "Icypeas MCP — wraps the Icypeas email-search API (icypeas.com)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-icypeas": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "icypeas"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-icypeas.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d49f607edab902bd5f98099d3efaeaaa917bfe405623b6534aa101488178ccda",
+    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+  }
+}
