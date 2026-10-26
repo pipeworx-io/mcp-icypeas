@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-icypeas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Icypeas MCP — wraps the Icypeas email-search API (icypeas.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-d49f607edab902bd5f98099d3efaeaaa917bfe405623b6534aa101488178ccda",
-    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+    "sourceHash": "v1-693727d7fc693dc329f3763e3db7928f22ee7f38001b563a8faaf8f7b0c73f31",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
